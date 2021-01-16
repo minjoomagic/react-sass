@@ -1,0 +1,87 @@
+// header {
+//     background: lightcoral;
+//     display: flex;
+//     justify-content: center;
+// }
+// ***********************
+
+
+// $primary-header: #9FE2BF;
+// $primary-text: #6495ED;
+
+
+
+// header {
+//     background: lightcoral;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     color: $primary-text;
+// }
+
+// header button {
+//     border-radius: 10px;
+//     height: 3rem;
+//     background: $primary-header;
+// }
+
+// **********************
+
+// header button {
+//     border-radius: 5px 30px 5px;
+//     height: 3rem;
+//     background: $primary-header;
+// }
+
+
+
+// *****************************
+
+// .contact button {
+//     background: $primary-header
+// }
+
+
+// *************************
+// Now we can nest inside the other header related css into just one instead of separate ones
+
+// header {
+//     background: lightcoral;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     button {
+//         background: $primary-header;
+//         border-radius: 5px 30px 5px;
+//         height: 3rem;
+//         &:hover{
+//             background: red;
+//             transition: ease-in-out 2.65s;
+//         }
+//     }
+// }
+
+
+
+// ****************
+//  now show using 
+@import '../../styles/shared/colors.scss';
+@import '../../styles/shared/header.scss';
+
+
+
+
+
+
+// ***************
+.contact {
+   @include centerize();
+}
+
+
+
+
+
+
+
+

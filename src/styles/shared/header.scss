@@ -1,0 +1,59 @@
+// header {
+//     background: lightcoral;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     button {
+//         background: $primary-header;
+//         &:hover{
+//             background: red;
+//             transition: ease-in 0.7s;
+//         }
+//     }
+// }
+
+// **********************************
+// added VH 100
+
+// header {
+//     background: lightcoral;
+//     height: 100vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     button {
+//         background: $primary-header;
+//         &:hover{
+//             background: red;
+//             transition: ease-in 0.7s;
+//         }
+//     }
+// }
+
+
+
+// *************************
+
+
+@mixin centerize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+header {
+
+    @include centerize();
+
+    background: lightcoral;
+    button {
+        background: $primary-header;
+        &:hover{
+            background: red;
+            transition: ease-in 0.7s;
+        }
+    }
+}

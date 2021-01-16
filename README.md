@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# CSS SASS powerup workshop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to install SASS in React
 
-## Available Scripts
+1. `npm install node-sass@4.14.1`  (the latest version 5.0 has a known conflict with React so must use this version for now)
 
-In the project directory, you can run:
 
-### `yarn start`
+2. Then change `index.css` and `App.css` to `index.scss` `App.scss`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. In both `index.js` and `App.js` change the import statement from `css to scss` 
+`import './index.scss'`
+`import './App.scss'`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+4. run `npm start or yarn start` 
+Should now load with no issues with spinning react icon as before. 
 
-### `yarn test`
+You know have activated SASS in your React app! 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## What is SASS and why use it?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Sass stands for Syntactically Awesome Stylesheet
+Sass is an extension to CSS
+Sass is a CSS pre-processor
+Sass is completely compatible with all versions of CSS
+1. Sass reduces repetition of CSS and therefore saves time. You can nest css. 
+2. You can use variables
+3. Better performance as you will essentially only be loading one css file in your app
+4. You can also create whats called mixins which are almost like functions and makes css almost into a programming language by making dynamic changes. 
+5. plus much much MORE ! 😃
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can actually use a .sass file or .scss file for SASS but I would use scss as you can just use the same syntax as normal css whereas sass is different syntax. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Demo
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Resources
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Flexbox zombies 
+2. Codepen.io
+3. dribbl
+4. css-tricks 
+ 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
