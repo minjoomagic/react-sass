@@ -37,9 +37,9 @@ You can actually use a .sass file or .scss file for SASS but I would use scss as
 
 ## Resources
 
-1. Flexbox zombies 
-2. Codepen.io
-3. dribbl
-4. css-tricks 
+1. Flexbox zombies- learn flexbox with a fun game!: https://geddski.teachable.com/p/flexbox-zombies
+2. Codepen.io-checkout awesome css examples: https://codepen.io/
+3. dribbble-to get design inspirations: https://dribbble.com/
+4. css-tricks-learn about the best css tricks: https://css-tricks.com/
  
 
